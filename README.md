@@ -3,7 +3,7 @@
 **No:** 25221304003
 
 ## 📝 Proje Tanıtımı
-Bu proje, **STM32F030F4Px** mikrodenetleyicisi kullanılarak, analog verinin işlenmesi ve donanım kontrolü üzerine kurgulanmıştır. Sistem, potansiyometreden aldığı analog sinyali PWM aracılığıyla LED parlaklığına dönüştürmektedir.
+Bu proje, **STM32F030F4Px** mikrodenetleyicisi kullanılarak, analog verinin işlenmesi ve donanım kontrolü üzerine kurgulanmıştır. Sistem, potansiyometreden aldığı analog sinyali işleyerek PWM aracılığıyla LED parlaklığına dönüştürmektedir.
 
 ## 🛠 Teknik Konfigürasyon
 | Birim | Pin | Görev |
@@ -14,13 +14,14 @@ Bu proje, **STM32F030F4Px** mikrodenetleyicisi kullanılarak, analog verinin iş
 | **UART** | PA2/PA3 | Seri Terminal Log Bilgisi (9600 Baud) |
 
 ## 🕹 Canlı Simülasyon (Wokwi)
-Projeyi tarayıcı üzerinden canlı test etmek için:
-
-https://wokwi.com/projects/367244067477216257](#)
+Projeyi tarayıcı üzerinden canlı test etmek için aşağıdaki bağlantıyı kullanabilirsiniz:
+👉 [Wokwi Simülasyonu İçin Tıklayınız](https://wokwi.com/projects/367244067477216257)
 
 ## 📸 Simülasyon Test Çıktısı
+Aşağıdaki görselde sistemin hatasız çalıştığı ve LED kontrolünün sağlandığı görülmektedir:
+
 ![Sistem Testi](image_26d567.png)
 
 ## 📂 Dosya Açıklamaları
-* `ana.c`: Projenin ana algoritması ve HAL sürücü konfigürasyonlarını içerir.
+* `ana.c`: Projenin ana algoritması, kesme yapıları ve HAL sürücü konfigürasyonlarını içerir.
 * `STM32F030F4PX_FLASH.ld`: Mikrodenetleyici bellek haritası ve linker ayarları.
