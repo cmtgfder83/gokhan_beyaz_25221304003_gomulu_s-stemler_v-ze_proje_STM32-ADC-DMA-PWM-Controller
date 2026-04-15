@@ -3,7 +3,7 @@
 **No:** 25221304003
 
 ## 📝 Proje Tanıtımı
-Bu çalışma, **STM32F030F4Px** mikrodenetleyicisi üzerinde ADC, DMA ve PWM birimlerinin entegre çalışmasını sergilemektedir. Sistem, potansiyometreden aldığı analog sinyali işleyerek PWM aracılığıyla LED parlaklığına dönüştürmektedir.
+Bu çalışma, **STM32F030F4Px** mikrodenetleyicisi üzerinde ADC, DMA ve PWM birimlerinin entegre çalışmasını sergilemektedir. Sistem, potansiyometreden aldığı analog sinyali işleyerek PWM aracılığıyla LED parlaklığını kontrol etmektedir.
 
 ## 🛠 Teknik Konfigürasyon
 | Birim | Pin | Görev |
@@ -17,10 +17,8 @@ Bu çalışma, **STM32F030F4Px** mikrodenetleyicisi üzerinde ADC, DMA ve PWM bi
 Projeyi tüm devre elemanlarıyla (potansiyometre, LED, direnç) canlı test etmek için tıklayınız:  
 👉 [Wokwi Üzerinde Çalıştır](https://wokwi.com/projects/461394785041268737)
 
-> **Önemli Not:** Wokwi simülasyonu `diagram.json` dosyası üzerinden tüm devre bağlantılarını otomatik olarak yüklemektedir. Eğer bir yükleme sorunu yaşanırsa, aşağıdaki görsel şemayı referans alınız.
-
 ## 📸 Simülasyon Test Çıktısı
-Aşağıdaki görselde sistemin hatasız çalıştığı ve LED kontrolünün sağlandığı görülmektedir:
+Aşağıdaki görselde sistemin hatasız çalıştığı görülmektedir:
 
 ![Sistem Testi](image_26d567.png)
 
